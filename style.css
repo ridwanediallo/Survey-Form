@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: linear-gradient(5deg, aqua, bisque);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: aqua; */
+  background: linear-gradient(5deg, bisque, aqua);
+
+  margin-bottom: 5px;
+  padding: 2px 0px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  
+}
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 40px 40px;
+  border-radius: 9px;
+  /* display: flex;
+    justify-content: center; */
+  /* text-align: center; */
+}
+
+form label {
+  display: block;
+  margin-bottom: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 400;
+}
+
+.form-input {
+  /* margin-top: 10px; */
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+form select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.form-radio {
+  border: none;
+  margin-bottom: 12px;
+}
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 400;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+} */

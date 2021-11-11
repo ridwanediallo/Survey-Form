@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Rid-Vee Survey Form</h1>
+      <p id="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+        earum!
+      </p>
+    </header>
+    <div class="container">
+      <form id="survey-form" action="">
+        <div>
+          <label for="name" id="name-label">Name</label>
+          <input
+            class="form-input"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div>
+          <label for="mail" id="email-label">Email</label>
+          <input
+            class="form-input"
+            id="mail"
+            type="text"
+            placeholder="me@gmail.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="number" id="number-label">Number</label>
+          <input
+            class="form-input"
+            id="number"
+            type="number"
+            placeholder="Enter your number"
+            min="1"
+            max="10"
+            required
+          />
+        </div>
+        <div>
+          <label for="select"
+            >Which option best describes your current role?</label
+          >
+          <select name="" id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+            <option value="Part time job">Part time job</option>
+            <option value="Freelance">Freelance</option>
+          </select>
+        </div>
+        
+        <div>
+          <label>Would you recommend freeCodeCamp to a friend?</label>
+          <input class="form-radio" type="radio" name="Definitely" /> <span>Definitely</span><br />
+          <input class="form-radio" type="radio" name="Maybe" /> <span>Maybe</span><br />
+          <input class="form-radio" type="radio" name="Not sure" /> <span>Not sure</span><br />
+          <input class="form-radio" type="radio" name="radio" /> <span>radio</span><br />
+        </div>
+        <div>
+          <label>Would you recommend freeCodeCamp to a friend?</label>
+          <input class="form-radio" type="checkbox" value="Definitely" /> <span>Definitely</span><br />
+          <input class="form-radio" type="checkbox" value="Maybe" /> <span>Maybe</span><br />
+          <input class="form-radio" type="checkbox" value="Not sure" /> <span>Not sure</span><br />
+          <input class="form-radio" type="checkbox" value="radio" /> <span>radio</span><br />
+        </div>
+
+        <div>
+          <label for="">Any comments or suggestions?</label>
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here" ></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
